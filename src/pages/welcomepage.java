@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 public class welcomepage {
         private WebDriver driver;
         welcomepage obj;
+        WebElement button = driver.findElement(By.cssSelector("[title=\"Log in to your customer account\"]"));
 
         public welcomepage(WebDriver driver)
         {
@@ -14,7 +15,7 @@ public class welcomepage {
             obj = new welcomepage(driver);
         }
 
-        public boolean clicksignin(WebElement button){
+        public boolean clicksignin(){
             driver.findElement((By) button).click();
             return true;
         }
