@@ -19,7 +19,8 @@ public class signup {
         driver.findElement((By) email).sendKeys(stremail);
     }
 
-    public void clickcreate(){
+    public void clickcreate()
+    {
         driver.findElement(submit).click();
     }
 }

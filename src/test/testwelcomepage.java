@@ -5,11 +5,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 //import org.tstng.Assert;
 import java.util.concurrent.TimeUnit;
-import pages.welcomepage;
+//import pages.welcomepage;
 
-public class testwelcomepage {
+//public class testwelcomepage {
 
-    welcomepage obj;
+  //  welcomepage obj;
     /*public  static WebDriver driverSetup()
     {
         String driverpath = "F:\\Java\\chromedriver_win32\\chromedriver.exe";
@@ -29,4 +29,4 @@ public class testwelcomepage {
         System.out.println("Test");
     }*/
 
-}
+//}
