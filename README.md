@@ -1,2 +1,2 @@
 # TestQA-BS
-The task is not completed. Itried to do upto selecting casual dresses. 
+The task is not complete. I tried to do upto selecting casual dresses. 
