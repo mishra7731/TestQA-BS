@@ -12,10 +12,11 @@ import java.util.concurrent.TimeUnit;
 public class testlogin {
     welcomepage obj;
     login objlogin;
+    WebDriver driver;
 
     @BeforeTest
     public WebDriver driverSetup() {
-        WebDriver driver = new ChromeDriver();
+        //WebDriver driver = new ChromeDriver();
         System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver_win32\\chromedriver.exe");
         driver.manage().window().maximize();
         WebDriver.Timeouts implicitlyWait = driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
